@@ -70,4 +70,13 @@
     .social-networks .label{
         display: inline-block
     }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer ul li{
+        display: inline-block;
+    }
 }
