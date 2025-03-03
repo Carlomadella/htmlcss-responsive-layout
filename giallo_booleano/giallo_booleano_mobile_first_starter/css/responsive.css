@@ -66,4 +66,8 @@
     .recipe-info{
         width: 50%;
     }
+
+    .social-networks .label{
+        display: inline-block
+    }
 }
