@@ -23,6 +23,16 @@
         height: 100%;
         object-fit: cover;
     }
+
+    .quick-notes ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes li{
+        display: inline-block;
+        width: 30%;
+    }
     
 }
 
