@@ -33,6 +33,10 @@
         display: inline-block;
         width: 30%;
     }
+
+    .social-networks .btn{
+        width: 150px;
+    }
     
 }
 
