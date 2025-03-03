@@ -1,0 +1,45 @@
+/* Soluzione qui */
+
+/* Modalità TABLET */
+@media screen and (min-width: 768px){
+    #topbar{
+        justify-content: flex-start;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    .recipe-origin{
+        display: inline-block;
+    }
+
+    .container{
+        padding: 40px;
+    }
+
+    .recipe-video img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .quick-notes ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes li{
+        display: inline-block;
+        width: 30%;
+    }
+
+    .social-networks .btn{
+        width: 150px;
+    }
+}
+
+/* Modalità DESKTOP */
+@media screen and (min-width: 992px){
+    
+}
