@@ -37,6 +37,10 @@
     .social-networks .btn{
         width: 150px;
     }
+
+    .ads{
+        display: inline-block;
+    }
     
 }
 
