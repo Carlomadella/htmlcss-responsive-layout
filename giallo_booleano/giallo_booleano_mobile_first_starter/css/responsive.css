@@ -54,5 +54,16 @@
         font-size: 35px;
     }
 
-    
+    .quick-notes li{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .recipe-card{
+        display: flex;
+    }
+
+    .recipe-info{
+        width: 50%;
+    }
 }
