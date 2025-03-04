@@ -1,5 +1,16 @@
 /* Soluzione qui */
 
+/* Modalità BIG SMARTPHONE */
+@media screen and (min-width: 556px){
+    .presentation img{
+        float: left;
+        margin-right: 20px;
+    }
+
+    .social-networks .btn{
+        width: 20%;
+    }
+}
 /* Modalità TABLET */
 @media screen and (min-width: 768px){
     #topbar{
@@ -32,10 +43,6 @@
     .quick-notes li{
         display: inline-block;
         width: 30%;
-    }
-
-    .social-networks .btn{
-        width: 150px;
     }
 
     .ads{
@@ -74,9 +81,13 @@
     footer{
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
-    footer ul li{
-        display: inline-block;
+    footer address{
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+
     }
 }
