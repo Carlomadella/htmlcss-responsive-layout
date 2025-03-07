@@ -1,4 +1,32 @@
 /* Soluzione qui */
+#tiramisu{
+    width: 100%;
+}
+
+.recipe-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipe-video{
+    width: 100%;
+}
+
+.recipe-info{
+    width: 100%;
+    padding: 0px;
+}
+
+.well{
+    margin: 30px;
+    padding: 15px 20px;
+}
+
+.quick-notes{
+    margin-top: 0px;
+    margin: 30px;
+}
+
 
 /* Modalità BIG SMARTPHONE */
 @media screen and (min-width: 556px){
@@ -71,7 +99,11 @@
     }
 
     .recipe-info{
-        width: 50%;
+        width: 30%;
+    }
+
+    .recipe-video{
+        width: 70%;
     }
 
     .social-networks .label{
@@ -88,6 +120,27 @@
         display: flex;
         justify-content: space-between;
         text-align: left;
+        flex-wrap: wrap;
+    }
 
+    strong{
+        width: 100%;
+    }
+
+    .footer li{
+        margin: 5px;
+        width: fit-content;
+    }
+
+    footer ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    footer a, #text{
+        color: #e2e2e2;
+        font-size: 11px;
     }
 }
